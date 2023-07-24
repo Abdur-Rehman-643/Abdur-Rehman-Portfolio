@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdur Rehman</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <style>
+        html body{
+          height: 100%;
+          padding: 0%;
+          margin: 0%;
+        }
+        
+        .container-fluid {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 100vh;
+          padding: 0;
+        }
+
+        .hero-section {
+          background: linear-gradient(to right, #9E9E9E, #2196F3);
+          background-size: 200% auto;
+          animation: gradientAnimation 5s ease-in-out infinite;
+        }
+
+        @keyframes gradientAnimation {
+          0% {
+            background-position: 0% center;
+          }
+          50% {
+            background-position: 100% center;
+          }
+          100% {
+            background-position: 0% center;
+          }
+        }  
+        
+        .myimage{
+            border-radius: 50%;
+            height: 200px;
+        }
+
+        .skills {
+          background-color: #9E9E9E;
+          padding: 50px;
+          color: #FFFFFF;
+        }
+
+        .projects {
+          background-color: #2196F3;
+          padding: 50px;
+          color: #333333;
+        }
+
+        h2 {
+          margin-bottom: 20px;
+        }
+
+        ul {
+          list-style-type: none;
+          padding-left: 0;
+        }
+
+        li {
+          margin-bottom: 10px;
+        }
+
+         @media (max-width: 768px) {
+            .container-fluid {
+              flex-direction: column;
+              height: auto;
+            }
+        
+            .skills,
+            .projects {
+              width: 100%;
+              height: auto;
+            }
+        }
+
+        .content {
+          flex-grow: 1;
+        }
+
+        .footer {
+          background: linear-gradient(to right, #9E9E9E, #2196F3);
+          padding: 20px;
+          color: #ffffff;
+          text-align: center;
+          animation: gradientAnimation 5s ease-in-out infinite;
+        }
+
+        .footer .list-inline-item a {
+          color: #ffffff;
+          display: flex;
+          align-items: center;
+        }
+
+        .footer .list-inline-item a:hover {
+          color: #FFEB3B; /* Change to a highlight color of your choice */
+        }
+
+        .footer .list-inline-item i {
+          margin-right: 5px;
+          font-size: 18px;
+        }
+
+        .footer .list-inline {
+          padding-left: 0;
+        }
+
+        .footer .list-inline-item:not(:last-child) {
+          margin-right: 10px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container-fluid hero-section">
+      <div class="row align-items-center justify-content-center min-vh-100">
+        <div class="col-12">
+            <div class="px-4 py-5 my-5 text-center">
+              <h1 class="display-5 fw-bold">Hi I'm Abdur Rehman</h1>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+    <div class="row justify-content-center align-items-center min-vh-100">
+      <div class="col-md-6 text-center">
+        <img src="./Sources/Abdur_Rehman.png" alt="Abdur Rehman" class="img-fluid mb-4 myimage">
+        <h2 class="text-primary">Hello</h2>
+        <p>🎓 I am a student of the University of Engineering and Technology, currently in my fourth semester. 🎓</p>
+      </div>
+    </div>
+  </div>
+      <div class="container-fluid page-content">
+    <div class="row">
+      <div class="col-md-6 skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>Proficient in programming languages: C, C++, Java, Assembly x86, Python</li>
+          <li>Strong problem-solving and analytical skills</li>
+          <li>Familiarity with database management systems</li>
+          <li>Knowledge of operating systems and computer architecture</li>
+          <li>Ability to work collaboratively in a team environment</li>
+          <li>Attention to detail and strong organizational skills</li>
+        </ul>
+      </div>
+      <div class="col-md-6 projects">
+        <h2>Projects</h2>
+        <ul>
+          <li>
+            <strong>Operating System Simulation:</strong>
+            Developed a comprehensive operating system simulator demonstrating multitasking, efficient resource management, and task queuing.
+          </li>
+          <li>
+            <strong>Tourist Management System:</strong>
+            Designed and implemented a relational database for efficient tourism management, ensuring data integrity and minimizing redundancy.
+          </li>
+          <li>
+            <strong>Digital Bazar:</strong>
+            Created a desktop app for an online marketplace with key features such as posting, messaging, search, buying/selling, history, renting, and filtering. Ensured secure transactions, digital receipts, and comprehensive records. Enabled product rental with fine calculation. Facilitated sorting of products by category, date, and price.
+          </li>
+          <li>
+            <strong>Payroll Management System:</strong>
+            Designed and developed a payroll management system for accurate salary calculations and record-keeping of departmental employees. Implemented a file-based system, "EmployeesManagementSystem.txt," to store employee details including ID, name, designation, basic salary, month, leaves, allowed leaves, per leave deduction rate, and salary. Streamlined salary calculation processes while ensuring data accuracy and compliance.
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <h3>© Abdur Rehman</h3>
+        </div>
+        <div class="col-lg-4">
+          <h3>Contact</h3>
+          <p>Email: rehmanabdur643@gmail.com</p>
+          <p>Phone: 0311 7796355</p>
+        </div>
+        <div class="col-lg-4">
+          <h3>Follow Us</h3>
+          <ul class="list-inline">
+            <li class="list-inline-item"><a href="#">Facebook<i class="fab fa-facebook"></i></a></li>
+            <li class="list-inline-item"><a href="#">Twitter<i class="fab fa-twitter"></i></a></li>
+            <li class="list-inline-item"><a href="#">Instagram<i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
